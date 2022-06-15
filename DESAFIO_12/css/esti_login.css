@@ -1,0 +1,59 @@
+@import url(esti_global.css);
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: var(--bg-site);
+}
+form a{
+    text-decoration: none;
+    color: black;
+}
+form{
+    padding: 80;
+}
+.form_box h1{
+    text-align: center;
+}
+.form_box{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background-color:  var(--bg_form);
+    width: max-content;
+    border-radius: 4px;
+    color: var(--color-form);
+}
+.i_text{
+    display: block;
+    padding: 10px 94px 10px 15px;
+    margin: 4px ;
+    border: 2px;
+    border-radius: 3px;
+    color: black;
+}
+.btt_form{
+    cursor: pointer;
+    padding: 5px 117px 5px 124px;
+    margin: 3px;
+    border: 2px;
+    border-radius: 3px;
+    background-color: var(--bg-btt);
+    color: var(--color-btt);
+}
+.btt_form :hover{
+    transition: 0.5s;
+    background-color: var(--btt-hover);
+}
+.erro_box{
+    background-color: var(--bg-errobox);
+    font-size: 14px;
+    padding: 7px 0px 7px 0px;
+    border-radius: 4px;
+}
+.novo_usuario-box{
+    margin: 6px;
+    font-style: italic;
+    font-size: 13px;
+}
