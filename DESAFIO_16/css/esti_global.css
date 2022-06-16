@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --bg-site:#b2dfdf6b;
+    --bg_menu:#1fb8b8; 
+    --bg_form:#1fb8b8;
+    --bg-hover:#208181;
+    --color-form: white;
+    --bg-btt:#9acece;
+    --color-btt:black;
+    --btt-hover:#000000a9;
+    --bg-errobox:rgb(218, 26, 26);
+    --color-i_text: black;
+    --border_avatar: #FFFFFF;
+
+}

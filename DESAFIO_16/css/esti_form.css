@@ -1,0 +1,149 @@
+@import url(esti_global.css);
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: var(--bg-site);
+}
+a{
+    text-decoration: none;
+}
+form{
+    padding: 80px;
+}
+.form_box h1{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #126b6b;
+}
+.form_box a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+#form_box{
+    text-align: center;
+}
+.form_box{
+    text-align: justify;
+    margin: auto;
+    padding: 40px;
+    height: max-content;
+    background-color:  var(--bg_form);
+    width: max-content;
+    border-radius: 4px;
+    color: var(--color-form);
+    /* box-shadow: ; */
+}
+
+.i_text{
+    display: block;
+    padding: 13px 109px 15px 13px;
+    margin: 12px 0px 12px 0px;
+    border: 2px;
+    border-radius: 3px;
+    color: black;
+}
+#i_tarefa, #i_status, #i_tipo{
+    text-align: justify;
+    display: block;
+    padding: 9px 125px 11px 27px;
+    margin-bottom: 14px;
+    border: 2px;
+    border-radius: 3px;
+    color: black;
+}
+select{
+    width: 320px;
+}
+#i_descricao{
+    text-align: justify;
+    display: block;
+    padding: 0px;
+    width: 320px;
+    height: 60px;
+    border: 2px;
+    border-radius: 3px;
+    color: black;
+}
+.i_image{
+    display: block;
+    padding: 7px 5px 7px 5px;
+    border: 1px solid;
+}
+#btt_f{
+    cursor: pointer;
+    padding: 10px 142px 9px 140px;   
+    margin: 16px 0px 13px 0px;
+    border: 2px;
+    display: block;
+    text-align: center;
+    background-color: var(--bg-btt);
+    color: var(--color-btt);
+    border-radius: 3px;
+}
+#btt_f:hover{
+    background-color: var(--bg-hover);
+    box-shadow: 0px 0px 0px 1px var black;
+    color: white;
+}
+#btt_form{
+    cursor: pointer;
+    padding: 10px 109px 9px 121px;   
+    margin: 16px 0px 13px 0px;
+    border: 2px;
+    display: block;
+    text-align: center;
+    background-color: var(--bg-btt);
+    color: var(--color-btt);
+    border-radius: 3px;
+}
+#btt_form:hover{
+    background-color: var(--bg-hover);
+    box-shadow: 0px 0px 0px 1px var black;
+    color: white;
+}
+.btt_f{
+    cursor: pointer;
+    padding: 10px 131px 9px 125px;   
+    margin: 16px 0px 13px 0px;
+    border: 2px;
+    display: block;
+    text-align: center;
+    background-color: var(--bg-btt);
+    color: var(--color-btt);
+    border-radius: 3px;
+}
+.btt_f:hover{
+    background-color: var(--bg-hover);
+    box-shadow: 0px 0px 0px 1px var black;
+    color: white;
+}
+.social_media svg{
+    color: white;
+    height: 36px;
+    padding: 0px 7px 5px 7px;
+}
+.erro_box{
+    text-align: center;
+    background-color: var(--bg-errobox);
+    font-size: 14px;
+    margin-left: 16px;
+    width: 250px;
+    line-height: 30px;
+    border-radius: 4px;
+}
+.image_box{
+    text-align: center;
+    font-size: 13px;
+    margin: 10px 0px 16px 16px;
+    width: 250px;
+    line-height: 24px;
+    border-radius: 4px;
+}
+.novo_usuario-box{
+    margin: 6px;
+    font-style: italic;
+    font-size: 13px;
+}
